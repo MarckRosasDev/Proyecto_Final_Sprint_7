@@ -1,0 +1,30 @@
+﻿# Entornos virtuales
+.venv/
+venv/
+env/
+vehicles_env/
+
+# Cachés/intermedios
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# Jupyter/VS Code
+.ipynb_checkpoints/
+.vscode/
+
+# Logs y SO
+*.log
+.DS_Store
+Thumbs.db
+
+# Streamlit / secretos
+.streamlit/secrets.toml
+.env
+*.env
+
+# Datos: ignora todo en data/ excepto el CSV necesario
+data/*
+!data/vehicles_us.csv
